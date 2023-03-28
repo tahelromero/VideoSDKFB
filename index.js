@@ -1,8 +1,11 @@
 import { AppRegistry, StatusBar } from "react-native";
-//import { registerRootComponent } from 'expo';
+import { registerRootComponent,Logs } from 'expo';
 import { register } from '@videosdk.live/react-native-sdk';
-
 import App from './App';
+
+//import { Logs } from 'expo'
+
+Logs.enableExpoCliLogging()
 
 // registerRootComponent calls AppRegistry.registerComponent('main', () => App);
 // It also ensures that whether you load the app in Expo Go or in a native build,
@@ -10,5 +13,5 @@ import App from './App';
 
 register();
 
-//registerRootComponent(App);
-AppRegistry.registerComponent('main', () => App);
+registerRootComponent(App);
+//AppRegistry.registerComponent('main', () => App);
