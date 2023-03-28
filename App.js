@@ -139,7 +139,7 @@ const MeetingView = ({meetingId}) => {
         Alert.alert("El Id de reunión no es válido");
       }*/
     }
-    const token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlrZXkiOiI3MDFhYzk3Yy0yMWNjLTQ4NTQtYTc1Yy1mZTY5NzFlYjQ5ODYiLCJwZXJtaXNzaW9ucyI6WyJhbGxvd19qb2luIl0sImlhdCI6MTY3OTkzMDMxMiwiZXhwIjoxNzExNDY2MzEyfQ.6w7w_6Oplj0UGjAfBGm-4ccJH-BiNwePAkIMOqXkmmQ";
+    const token = "";
     const unirseAlaReunion = async () =>{
         console.log("unirseAlaReunion")
         console.log("meetingId: "+meetingId);
